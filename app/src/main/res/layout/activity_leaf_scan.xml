@@ -31,8 +31,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Disease Detection"
+                android:layout_marginStart="18dp"
+                android:text=" Plant Disease Detection"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -50,13 +50,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="18dp">
 
             <!-- Captured Image Card -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="18dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp">
 
@@ -73,7 +73,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="18dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp">
 
@@ -81,21 +81,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="18dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/detectionresult"
+                        android:text="Result:"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <!-- Disease Name -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="18dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -103,7 +103,8 @@
                             android:layout_height="wrap_content"
                             android:text="Disease:"
                             android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/result"
@@ -112,9 +113,8 @@
                             android:layout_marginStart="8dp"
                             android:layout_weight="1"
                             android:textColor="@color/black"
-                            android:textSize="16sp"
-                            android:textStyle="bold"
-                            />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -122,10 +122,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:text="Confidence Score"
+                        android:layout_marginTop="18dp"
+                        android:text="Confidence score:"
                         android:textColor="@color/black"
-                        android:textSize="16sp" />
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
 
                     <com.google.android.material.progressindicator.LinearProgressIndicator
                         android:id="@+id/confidenceProgress"
@@ -133,7 +134,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         app:trackCornerRadius="8dp"
-                        app:trackThickness="8dp" />
+                        app:trackThickness="10dp" />
 
                     <TextView
                         android:id="@+id/confidenceText"
@@ -161,7 +162,7 @@
                     android:id="@+id/controlsContainer"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:background="#99DBDADA"
+                    android:background="#a7f1a8"
                     android:padding="16dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -183,7 +184,7 @@
                         app:iconTint="@color/white"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.61"
+                        app:layout_constraintHorizontal_bias="0.76"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 

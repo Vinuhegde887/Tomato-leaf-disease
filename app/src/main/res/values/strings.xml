@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">sasya2</string>
+    <string name="app_name">Sasya</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -13,8 +13,8 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="welcomeText">Welcome to Sasya</string>
     <string name="Description">Your plant health companion</string>
-    <string name="scanviewtext">Treat your crop!</string>
-    <string name="ScanText">Scan now</string>
+    <string name="scanviewtext">Heal your Crop!</string>
+    <string name="ScanText">Take a picture</string>
     <string name="gallerybtn">Gallery</string>
     <string name="Camerabtn">camera</string>
     <string name="detectionresult">Detection Result:</string>

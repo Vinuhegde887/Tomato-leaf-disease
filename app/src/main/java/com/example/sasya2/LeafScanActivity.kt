@@ -22,13 +22,7 @@ import kotlin.math.min
 class LeafScanActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLeafScanBinding
     private val imageSize = 224
-    private val classes = arrayOf("Tomato___healthy","Tomato___Leaf_Mold","Tomato___Late_blight","Tomato___Early_blight",
-        "Tomato___Bacterial_spot","Potato___healthy","Potato___Late_blight","Potato___Early_blight",
-        "Pepper,_bell___healthy","Pepper,_bell___Bacterial_spot","Grape___healthy","Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
-        "Grape___Black_rot","Cherry_(including_sour)___healthy","Cherry_(including_sour)___Powdery_mildew",
-        "Apple___healthy","Apple___Black_rot","Apple___Apple_scab")
-
-
+    private val classes = arrayOf("Tomato_healthy", "Tomato_Leaf_Mold", "Tomato_Early_blight", "Tomato_Late_blight", "Tomato_Bacterial_spot", "Potato_healthy", "Potato_Late_blight", "Potato_Early_blight", "Pepper_Bacterial_spot", "Pepper_healthy", "Grape_healthy", "Grape_Leaf_blight", "Grape_Black_rot", "Cherry_healthy", "Cherry_Powdery_mildew", "Apple_healthy", "Apple_Black_rot", "Apple_Apple_scab")
     private val cameraPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
     ) { isGranted ->
