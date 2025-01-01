@@ -12,12 +12,6 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <ImageButton
-            android:id="@+id/backButton"
-            android:layout_width="44dp"
-            android:layout_height="wrap_content"
-            android:padding="4dp"
-            android:src="@drawable/ic_back" />
 
         <TextView
             android:layout_width="wrap_content"

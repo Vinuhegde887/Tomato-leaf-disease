@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PepperActivity">
+    android:padding="16dp">
 
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/healthyCard"
+            style="@style/cardStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <LinearLayout style="@style/cardLinearLayout">
+                <TextView style="@style/cardTitle" android:text="Healthy Bell Pepper" />
+                <TextView style="@style/remediesTitle" android:text="Care Tips:" />
+                <TextView style="@style/remedyItem" android:text="- Consistent watering (avoid overwatering)" />
+                <TextView style="@style/remedyItem" android:text="- Well-draining soil" />
+                <TextView style="@style/remedyItem" android:text="- Balanced fertilization" />
+                <TextView style="@style/remedyItem" android:text="- Regular pest and disease inspection" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bacterialSpotPepperCard"
+            style="@style/cardStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <LinearLayout style="@style/cardLinearLayout">
+                <TextView style="@style/cardTitle" android:text="Bacterial Spot" />
+                <TextView style="@style/remediesTitle" android:text="Remedies:" />
+                <TextView style="@style/remedyItem" android:text="- Apply copper-based bactericides" />
+                <TextView style="@style/remedyItem" android:text="- Remove and destroy infected leaves" />
+                <TextView style="@style/remedyItem" android:text="- Avoid overhead irrigation" />
+                <TextView style="@style/remedyItem" android:text="- Ensure proper spacing for airflow" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
