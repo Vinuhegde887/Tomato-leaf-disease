@@ -215,8 +215,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="• Ensure regular watering and adequate fertilization
-                for optimal growth."
+                android:text="• Ensure regular watering and adequate fertilization for optimal growth."
                 android:textColor="#666666" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
