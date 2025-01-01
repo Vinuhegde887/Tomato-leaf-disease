@@ -46,7 +46,7 @@
                     android:text="Leaf Mold:"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:textColor="#4CAF50"
+                    android:textColor="#F83434"
                     android:paddingBottom="8dp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                     android:text="Early Blight:"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:textColor="#4CAF50"
+                    android:textColor="#F83434"
                     android:paddingBottom="8dp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -130,7 +130,7 @@
                     android:text="Late Blight:"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:textColor="#4CAF50"
+                    android:textColor="#F83434"
                     android:paddingBottom="8dp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -170,7 +170,7 @@
                 android:text="Bacterial Spot:"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:textColor="#4CAF50"
+                android:textColor="#F83434"
                 android:paddingBottom="8dp" />
             <TextView
                 android:layout_width="wrap_content"
@@ -206,7 +206,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bacterial Spot:"
+                android:text="Healthy:"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#4CAF50"

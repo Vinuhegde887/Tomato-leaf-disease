@@ -92,7 +92,7 @@
                     android:text="Bacterial Spot:"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:textColor="#4CAF50"
+                    android:textColor="#F83434"
                     android:paddingBottom="8dp" />
                 <TextView
                     android:layout_width="wrap_content"

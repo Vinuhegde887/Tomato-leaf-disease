@@ -6,13 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.cardview.widget.CardView
 import com.example.sasya2.*
 import com.example.sasya2.databinding.FragmentRemediesBinding
 
 class RemediesFragment : Fragment() {
     private var _binding: FragmentRemediesBinding? = null
     private val binding get() = _binding!!
+
 
     override fun onCreateView(
         inflater: LayoutInflater,

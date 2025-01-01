@@ -98,7 +98,7 @@
                     android:text="Powdery Mildew (Grape):"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:textColor="#4CAF50"
+                    android:textColor="#F83434"
                     android:paddingBottom="8dp" />
 
                 <TextView
@@ -140,7 +140,7 @@
                     android:text="Leaf Mold:"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:textColor="#4CAF50"
+                    android:textColor="#F83434"
                     android:paddingBottom="8dp" />
 
                 <TextView

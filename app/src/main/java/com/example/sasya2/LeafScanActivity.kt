@@ -14,6 +14,7 @@ import androidx.core.content.ContextCompat
 import com.example.sasya2.databinding.ActivityLeafScanBinding
 import com.example.sasya2.ml.Model
 import com.example.sasya2.ui.home.HomeFragment
+import com.example.sasya2.ui.remedies.RemediesFragment
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
@@ -149,8 +150,21 @@ class LeafScanActivity : AppCompatActivity() {
                 confidenceText.text = "$confidencePercentage%"
                 confidenceProgress.progress = confidencePercentage
             }
+
+            // Trigger navigation to RemediesActivity after classification
+            val diseaseName = classes[maxIndex]
+            navigateToRemedies(diseaseName, confidencePercentage)
         } ?: showError("Classification failed")
     }
+
+    private fun navigateToRemedies(diseaseName: String, confidencePercentage: Int) {
+        Intent(this, RemediesFragment::class.java).apply {
+            putExtra("DISEASE_NAME", diseaseName)
+            putExtra("CONFIDENCE_PERCENTAGE", confidencePercentage)
+            startActivity(this)
+        }
+    }
+
 
     private fun showError(message: String) {
         with(binding) {
