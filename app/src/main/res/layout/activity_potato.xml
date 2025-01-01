@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/healthyCard"
+            style="@style/cardStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <LinearLayout style="@style/cardLinearLayout">
+                <TextView style="@style/cardTitle" android:text="Healthy Potato" />
+                <TextView style="@style/remediesTitle" android:text="Care Tips:" />
+                <TextView style="@style/remedyItem" android:text="- Maintain proper watering" />
+                <TextView style="@style/remedyItem" android:text="- Fertilize adequately" />
+                <TextView style="@style/remedyItem" android:text="- Monitor soil health" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/lateBlightCard"
+            style="@style/cardStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <LinearLayout style="@style/cardLinearLayout">
+                <TextView style="@style/cardTitle" android:text="Late Blight" />
+                <TextView style="@style/remediesTitle" android:text="Remedies:" />
+                <TextView style="@style/remedyItem" android:text="- Apply fungicides (copper or chlorothalonil)" />
+                <TextView style="@style/remedyItem" android:text="- Remove and destroy infected plants" />
+                <TextView style="@style/remedyItem" android:text="- Ensure good air circulation" />
+                <TextView style="@style/remedyItem" android:text="- Avoid overhead watering" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/earlyBlightCard"
+            style="@style/cardStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <LinearLayout style="@style/cardLinearLayout">
+                <TextView style="@style/cardTitle" android:text="Early Blight" />
+                <TextView style="@style/remediesTitle" android:text="Remedies:" />
+                <TextView style="@style/remedyItem" android:text="- Use fungicides (mancozeb or azoxystrobin)" />
+                <TextView style="@style/remedyItem" android:text="- Rotate crops to reduce pathogen buildup" />
+                <TextView style="@style/remedyItem" android:text="- Remove plant debris after harvest" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

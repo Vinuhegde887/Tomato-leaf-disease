@@ -10,6 +10,7 @@
 
     <string name="menu_home">Sasya</string>
     <string name="menu_gallery">Gallery</string>
+    <string name="menu_remedies">Remedies</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="welcomeText">Welcome to Sasya</string>
     <string name="Description">Your plant health companion</string>
@@ -18,5 +19,7 @@
     <string name="gallerybtn">Gallery</string>
     <string name="Camerabtn">camera</string>
     <string name="detectionresult">Detection Result:</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>
